@@ -1,0 +1,34 @@
+.wrapper {
+    position: fixed;
+    width: 356px;
+    min-height: 100px;
+    padding: 20px 0 26px 8px;
+    overflow: hidden;
+    height: 100vh;
+    &:hover {
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+            border-radius: 0;
+            width: 8px;   
+            height: 50px; 
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            background-color: rgba(110, 106, 106, 0.15);
+            // background-color: rgba(46, 223, 176, 0.803);
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 0;
+            background-color: rgba(161, 159, 159, 0);
+        }
+    }
+}
+.Menu {
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+}
+.list-accounts {
+    padding: 16px 0px;
+}

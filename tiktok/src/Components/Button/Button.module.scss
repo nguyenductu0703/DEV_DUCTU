@@ -1,0 +1,88 @@
+.wrapper {
+    border-radius: 4px;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 16px;
+    border: 1px solid transparent;
+}
+.primary {
+    padding: 6px 8px;
+    min-width: 100px;
+    background-color: var(--primary);
+    color: var(--white);
+    &:hover {
+        background-color: #d54a66;
+    }
+}
+.outline {
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    min-width: 88px;
+    padding: 0 10px;
+    display: flex;
+    color: var(--primary);
+    border-color: currentColor;
+    min-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    &:hover {
+        background-color: #d54a661e;
+    }
+}
+.small {
+    min-width: 88px;
+    padding: 4px 16px;
+}
+.large {
+    min-width: 140px;
+    padding: 14px 16px;
+}
+.text {
+    padding: 6px 8px;
+    min-width: 100px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    &:hover {
+        background-color: rgb(250, 242, 242);
+    }
+}
+.rounded {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgba(22, 24, 35, 0.75);
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    padding: 0 8px;
+    min-width: 90px;
+    height: 32px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+    border-radius: 52px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(22, 24, 35, 0.12);
+    background-color: rgba(255, 255, 255, 1);
+    transition: transform 0.3s cubic-bezier(0.4, 0.14, 0.3, 1);
+    transform-origin: right bottom;
+
+    &:hover {
+        background-color: rgb(250, 242, 242);
+    }
+}

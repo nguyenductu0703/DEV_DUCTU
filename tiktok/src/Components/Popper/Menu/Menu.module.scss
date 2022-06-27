@@ -1,0 +1,43 @@
+.content {
+    width: 224px;
+}
+.menu-item {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    padding: 6px 12px;
+    font-size: 15px;
+    background-color: transparent;
+    margin: 5px 0;
+    font-weight: 500;
+    color: rgb(55, 54, 54);
+    &.separate {
+        border-top: 1px solid rgb(235, 228, 228);
+    }
+    &:hover {
+        background-color: rgb(236, 231, 231);
+    }
+}
+.header {
+    position: relative;
+    width: 50px;
+}
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 230%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    text-align: center;
+}
+.headers-icons {
+    overflow-y: auto;
+}

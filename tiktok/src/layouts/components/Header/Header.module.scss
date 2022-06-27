@@ -1,0 +1,87 @@
+.wrapper {
+    --search-boder-radius: 92px;
+    --search-height: 46px;
+    --search-top-space: 9px;
+
+    width: 100%;
+    height: var(--default-layout-header-height);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.inner {
+    height: 100%;
+    width: var(--default-layout-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.logo {
+    top: 50%;
+    transform: translateY(10%);
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+
+.action {
+    display: flex;
+}
+.icon-menu {
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    fill: currentcolor;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgba(22, 24, 35, 1);
+    margin-left: 16px;
+    background-color: transparent;
+}
+.user-avatar {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 24px;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 18px;
+}
+.upload-user,
+.message-user {
+    margin-left: 16px;
+    cursor: pointer;
+    height: 32px;
+    padding: 3px 3px 0;
+    position: relative;
+    background-color: transparent;
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 18px;
+    color: rgba(22, 24, 35, 1);
+}
+.message-notifi {
+    position: absolute;
+    background-color: rgb(254, 44, 85);
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 10px;
+    top: -5px;
+    right: -10px;
+    font-weight: 600;
+    font-size: 13px;
+    color: aliceblue;
+    line-height: 20px;
+    left: 16px;
+    justify-content: center;
+}

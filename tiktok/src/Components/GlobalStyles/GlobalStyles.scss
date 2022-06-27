@@ -1,0 +1,60 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #fe2c55;
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+    --text-color: #333;
+    --white: #fff;
+    --black: black;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(10, 0, 0, 0.61);
+    // background-color: rgba(46, 223, 176, 0.803);
+    height: 20px;
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(15, 2, 2, 0);
+}
+
+html {
+    font-size: 62.5%;
+    // overflow: hidden;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+}
+button,
+input,
+select,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+a[href] {
+    text-decoration: none;
+    // width: 100%;
+
+    &:hover {
+        width: 100%;
+    }
+    color: #333;
+}

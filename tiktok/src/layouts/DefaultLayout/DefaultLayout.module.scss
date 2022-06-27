@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.Container {
+    width: var(--default-layout-width);
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--default-layout-header-height);
+    
+}
+.content {
+    flex: 1;
+    position: absolute;
+    min-height: 1000px;
+    left: 356px;
+    width: 68.5%;
+    margin: 0 16px;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}

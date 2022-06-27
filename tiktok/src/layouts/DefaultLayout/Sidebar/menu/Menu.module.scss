@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-title {
+    display: flex;
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 8px;
+    align-items: center;
+}
+.menu-item {
+    display: flex;
+    padding: 8px;
+    color: rgba(22, 24, 35, 1);
+    position: relative;
+    &:hover {
+        background-color: rgb(245, 244, 244);
+        border-radius: 4px;
+    }
+    &.active {
+        color: var(--primary);
+    }
+}
+.menu-icon {
+    width: 32px;
+    height: 32px;
+    fill: rgb(22, 24, 35);
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    line-height: 32px;
+}
